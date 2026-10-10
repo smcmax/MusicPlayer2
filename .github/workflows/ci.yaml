@@ -52,7 +52,7 @@ jobs:
           name: MusicPlayer2.x64.other
           path: ./MusicPlayer2.x64.other.7z
   build-x86:
-    runs-on: windows-latest
+    runs-on: windows-2022
     steps:
       - name: Check Out
         uses: actions/checkout@v4
